@@ -1,0 +1,127 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f9ff;
+  color: #333;
+}
+
+header.gradient {
+  background: linear-gradient(to right, #3f87a6, #ebf8e1, #f69d3c);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: white;
+  margin: 0 8px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero, .about, .skills, .contact, .hobbies, .friend {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  margin-top: 20px;
+}
+
+.hero img, .about img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+h2 span.highlight {
+  color: #f69d3c;
+}
+
+.tagline {
+  font-size: 1.2em;
+  color: #3f87a6;
+}
+
+.highlight {
+  color: #f69d3c;
+  font-weight: bold;
+}
+
+.skills ul.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #ebf8e1;
+  padding: 15px;
+  border-left: 5px solid #3f87a6;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hobby-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.1em;
+}
+
+.hobby-list li {
+  background: #fef8e7;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-left: 5px solid #f69d3c;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.hobby-images {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.hobby-images img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #3f87a6;
+  color: white;
+  margin-top: 30px;
+  position: relative;
+}
